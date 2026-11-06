@@ -52,16 +52,9 @@ The race was held among the course participants (about 30 students, competing in
 
 ## System Design
 
-```mermaid
-flowchart LR
-    A[Android Phone] -- Bluetooth --> B[HC-05]
-    B -- UART --> C[Arduino Nano]
-    C -- PWM + Direction --> D[Motor Driver]
-    D --> E[Left Motors x2]
-    D --> F[Right Motors x2]
-    G[Battery Pack] --> D
-    G --> C
-```
+<p align="center">
+  <img src="images/system-design.svg" alt="System design diagram" width="800">
+</p>
 
 The two motors on each side are wired in parallel and driven as one channel, which gives differential (tank-style) steering.
 
