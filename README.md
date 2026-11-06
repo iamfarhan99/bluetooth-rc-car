@@ -95,7 +95,7 @@ Commands are single ASCII characters sent over Bluetooth at 9600 baud.
 ## Getting Started
 
 1. Wire the components as shown above.
-2. Open [`rc_car/rc_car.ino`](rc_car/rc_car.ino) in the Arduino IDE.
+2. Open [`rc_car/rc_car.ino`](rc_car.ino) in the Arduino IDE.
 3. Select **Arduino Nano** as the board, then upload. If you get upload errors, disconnect the HC-05 RX/TX wires during upload.
 4. Pair your phone with the HC-05 (default PIN `1234` or `0000`).
 5. Open any Bluetooth RC car app, connect to the HC-05 and drive.
