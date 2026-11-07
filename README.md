@@ -113,7 +113,7 @@ Commands are single ASCII characters sent over Bluetooth at 9600 baud.
 Built by our team during the Basics of Robotics course:
 
 - Md Farhan Shahriar Shihab ([@iamfarhan99](https://github.com/iamfarhan99))
-- Ashraful Islam Shuvo
+- Ashraful Islam Shuvo ([@iamashrafulshuvo](https://github.com/iamashrafulshuvo))
 - Mehedi Hasan Sabbir
 
 <p align="center">
